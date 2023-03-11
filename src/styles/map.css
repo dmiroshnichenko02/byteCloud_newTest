@@ -195,10 +195,11 @@
 
 .north__device__mask_small span {
     height: 100%;
-    top: 249px;
+    top: 253px;
     left: 72px;
     background-color: blue;
     z-index: 20;
+    transform-origin: bottom left;
     transform: skewY(332deg);
 }
 
@@ -219,9 +220,10 @@
 
 .north__device__mask_medium span {
     height: 100%;
-    top: 245px;
+    top: 252px;
     left: 199px;
     background-color: blue;
+    transform-origin: bottom left;
     transform: skewY(332deg);
     z-index: 20;
 }
@@ -243,9 +245,10 @@
 
 .north__device__mask_high span {
     height: 100%;
-    top: 282px;
-    left: 135px;
+    top: 287px;
+    left: 151px;
     background-color: blue;
+    transform-origin: bottom left;
     transform: skew(57deg, 325deg);
     z-index: 20;
     border-radius: 3px;
@@ -258,9 +261,10 @@
 }
 
 .south__device__mask_small span {
-    top: 445px;
+    top: 450px;
     left: 252px;
     background-color: blue;
+    transform-origin: bottom left;
     height: 100%;
     z-index: 20;
     transform: skewY(332deg);
@@ -273,9 +277,10 @@
 }
 
 .south__device__mask_medium span {
-    top: 520px;
+    top: 527px;
     left: 280px;
     background-color: blue;
+    transform-origin: bottom left;
     height: 100%;
     z-index: 20;
     transform: skewY(332deg);
@@ -288,9 +293,10 @@
 }
 
 .south__device__mask_high span {
-    top: 487px;
-    left: 322px;
+    top: 492px;
+    left: 338px;
     background-color: blue;
+    transform-origin: bottom left;
     height: 100%;
     transform: skew(57deg, 325deg);
     z-index: 20;
@@ -304,9 +310,10 @@
 }
 
 .europe__device__mask_small span {
-    top: 191px;
+    top: 196px;
     left: 685px;
     background-color: blue;
+    transform-origin: bottom left;
     height: 100%;
     z-index: 20;
     transform: skewY(332deg);
@@ -319,9 +326,10 @@
 }
 
 .europe__device__mask_medium span {
-    top: 258px;
-    left: 478px;
+    top: 264px;
+    left: 477px;
     background-color: blue;
+    transform-origin: bottom left;
     height: 100%;
     z-index: 20;
     transform: skewY(332deg);
@@ -334,9 +342,10 @@
 }
 
 .europe__device__mask_high span {
-    top: 232px;
-    left: 626px;
+    top: 236px;
+    left: 641px;
     background-color: blue;
+    transform-origin: bottom left;
     height: 100%;
     transform: skew(57deg, 325deg);
     z-index: 20;
@@ -349,9 +358,10 @@
 }
 
 .asia__device__mask_small span {
-    top: 330px;
+    top: 334px;
     left: 822px;
     background-color: blue;
+    transform-origin: bottom left;
     height: 100%;
     z-index: 20;
     transform: skewY(332deg);
@@ -364,9 +374,10 @@
 }
 
 .asia__device__mask_medium span {
-    top: 240px;
+    top: 246px;
     left: 1015px;
     background-color: blue;
+    transform-origin: bottom left;
     height: 100%;
     z-index: 20;
     transform: skewY(332deg);
@@ -379,10 +390,10 @@
 }
 
 .asia__device__mask_high span {
-    top: 323px;
-    left: 967px;
-
+    top: 326px;
+    left: 981px;
     background-color: blue;
+    transform-origin: bottom left;
     height: 100%;
     transform: skew(57deg, 325deg);
     z-index: 20;
@@ -395,9 +406,10 @@
 }
 
 .australia__device__mask_small span {
-    top: 547px;
+    top: 552px;
     left: 980px;
     background-color: blue;
+    transform-origin: bottom left;
     height: 100%;
     z-index: 20;
     transform: skewY(332deg);
@@ -410,9 +422,10 @@
 }
 
 .australia__device__mask_medium span {
-    top: 552px;
+    top: 558px;
     left: 1098px;
     background-color: blue;
+    transform-origin: bottom left;
     height: 100%;
     z-index: 20;
     transform: skewY(332deg);
@@ -425,9 +438,10 @@
 }
 
 .australia__device__mask_high span {
-    top: 558px;
-    left: 1048px;
+    top: 563px;
+    left: 1063px;
     background-color: blue;
+    transform-origin: bottom left;
     height: 100%;
     transform: skew(57deg, 325deg);
     z-index: 20;
@@ -524,27 +538,27 @@
     top: 270px;
     left: 30px;
     width: 40px;
-    height: 50px;
+    height: 55px;
 }
 
 .north_server {
     top: 230px;
     left: 250px;
     width: 40px;
-    height: 50px;
+    height: 55px;
 }
 
 .europe_server {
     top: 200px;
     left: 517px;
     width: 40px;
-    height: 50px;
+    height: 55px;
 }
 
 .asia_server {
     top: 425px;
     right: 177px;
     width: 40px;
-    height: 50px;
+    height: 55px;
 }
 
